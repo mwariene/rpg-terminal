@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar RPG",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g", "main.cpp", "introduction.cpp", "action.cpp", "action_inventory.cpp", "interaction.cpp", "-o", "main"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
